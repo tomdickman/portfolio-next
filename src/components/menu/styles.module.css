@@ -1,0 +1,24 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+  width: 100%;
+  max-width: 900px;
+}
+
+.button {
+  background: none;
+  border: none;
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 480px) {
+  .button {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
