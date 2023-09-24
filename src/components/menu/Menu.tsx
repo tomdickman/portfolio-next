@@ -12,7 +12,7 @@ export const Menu = () => {
   return (
     <div className={styles.menu}>
       <button className={styles.button} onClick={clickHandler} >
-        <Burger open={open} />
+        <Burger className={styles.burger} open={open} />
       </button>
     </div>
   )

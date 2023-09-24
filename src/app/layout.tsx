@@ -4,6 +4,7 @@ import { Audiowide, Roboto } from 'next/font/google'
 import { Menu } from '@/components/menu'
 import type { Metadata } from 'next'
 
+import styles from './layout.module.css'
 
 export const headingFont = Audiowide({
   display: 'swap',
@@ -32,8 +33,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${headingFont.variable} ${textFont.variable}`}>
-        {children}
         {/* <Menu /> */}
+        <main className={styles.main}>
+          {children}
+        </main>
       </body>
     </html>
   )

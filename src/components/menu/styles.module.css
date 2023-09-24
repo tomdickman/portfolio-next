@@ -9,6 +9,10 @@
   max-width: 900px;
 }
 
+.burger {
+  height: 6rem;
+}
+
 .button {
   background: none;
   border: none;
@@ -16,6 +20,10 @@
 }
 
 @media screen and (min-width: 480px) {
+  .burger {
+    height: 3rem;
+  }
+
   .button {
     position: fixed;
     top: 0;

@@ -3,14 +3,18 @@
 import styles from "./styles.module.css"
 
 export type BurgerProps = {
-  open?: boolean
+	className?: string
+	open?: boolean
 }
 
-export const Burger = ({ open = false }) => {
+export const Burger = ({
+	className = '',
+	open = false
+}) => {
 	return (
 		<svg
 			viewBox="0 0 10 10"
-			className={`${styles.burgerMenuIcon} ${open ? styles.open : ""}`}
+			className={`${className} ${styles.burgerMenuIcon} ${open ? styles.open : ""}`}
 		>
 			<line
 				className={styles.burgerMenuIconTop}
