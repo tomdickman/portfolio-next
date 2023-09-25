@@ -22,7 +22,7 @@ export const textFont = Roboto({
 
 export const metadata: Metadata = {
   title: 'Tom Dickman Web Development',
-  description: 'Personal web site of Tom Dickman, professional web developer',
+  description: 'Personal web site of Tom Dickman, professional software engineer',
 }
 
 export default function RootLayout({
