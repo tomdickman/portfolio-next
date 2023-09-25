@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${headingFont.variable} ${textFont.variable}`}>
-        {/* <Menu /> */}
+        <Menu />
         <main className={styles.main}>
           {children}
         </main>

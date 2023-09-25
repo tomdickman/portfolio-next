@@ -9,10 +9,7 @@ export default function Home() {
           <h2 className={styles.subtitle}>Software engineer</h2>
         </div>
         <p className={styles.text}>
-          I am a full-stack software engineer, focussed on delivering simple, fast and efficient cloud based web applications and software solutions.
-        </p>
-        <p className={styles.text}>
-          If you want to improve your speed up your web application, increase user retention rate, improve accessibility, or simply build an easy to maintain application, contact me.
+          I build lightning fast cloud based web applications and software solutions.
         </p>
       </div>
     </div>
