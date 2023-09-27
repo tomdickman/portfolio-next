@@ -12,28 +12,22 @@
   text-decoration: underline;
 }
 
-.menu {
-  z-index: 1;
-  width: 100%;
-}
-
 .nav {
+  background-color: var(--secondary-color);
   position: fixed;
-  bottom: 0;
+  bottom: -60vh;
   border-radius: 1em 1em 0 0;
   color: var(--white);
-  display: none;
-  visibility: hidden;
   padding: 2em;
   width: 100%;
   z-index: 900;
   height: 60vh;
+  transition: all 500ms ease-in-out;
+}
 
-  &.open {
-    display: block;
-    visibility: visible;
-    background-color: var(--secondary-color);
-  }
+.open {
+  font-size: 1em;
+  bottom: 0;
 }
 
 .burger {
@@ -45,7 +39,7 @@
 .button {
   /* Width based on burger icon width + padding */
   width: calc(6em + 0.5em + 0.5em);
-  border-radius: 50%;
+  border-radius: 50% 50% 0 0;
   background-color: var(--secondary-color);
   padding: 0.5em 0.5em 0.2em 0.5em;
   border: none;
@@ -84,9 +78,15 @@
   }
 
   .nav {
+    bottom: 0;
+    left: -14em;
     height: 100%;
     width: 12em;
     border-radius: 0 1em 1em 0;
     padding: 6em 2em;
+  }
+
+  .open {
+    left: 0;
   }
 }
