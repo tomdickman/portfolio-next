@@ -1,44 +1,92 @@
+.links li {
+  list-style: none;
+}
+
+.link {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.link:active, .link:hover {
+  color: var(--primary-color-light);
+  text-decoration: underline;
+}
+
 .menu {
-  position: fixed;
-  bottom: 0;
-  z-index: 1000;
+  z-index: 1;
   width: 100%;
 }
 
 .nav {
+  position: fixed;
+  bottom: 0;
+  border-radius: 1em 1em 0 0;
+  color: var(--white);
   display: none;
   visibility: hidden;
   padding: 2em;
+  width: 100%;
+  z-index: 900;
+  height: 60vh;
 
   &.open {
     display: block;
     visibility: visible;
+    background-color: var(--secondary-color);
   }
 }
 
 .burger {
-  height: 6rem;
+  color: var(--white);
+  height: 6em;
+  transition: ease-in-out 100ms;
 }
 
 .button {
-  background: none;
+  /* Width based on burger icon width + padding */
+  width: calc(6em + 0.5em + 0.5em);
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  padding: 0.5em 0.5em 0.2em 0.5em;
   border: none;
-  padding: 0.25rem;
+}
+
+.buttonContainer {
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
 }
 
 @media screen and (min-width: 480px) {
   .burger {
+    color: var(--black);
     height: 3rem;
+    &.open {
+      color: var(--white);
+    }
   }
 
   .button {
+    background: none;
+    padding: 0.5rem;
     position: fixed;
     top: 0;
     left: 0;
   }
 
   .menu {
-    width: 12em;
     top: 0;
+    height: 100%;
+  }
+
+  .nav {
+    height: 100%;
+    width: 12em;
+    border-radius: 0 1em 1em 0;
+    padding: 6em 2em;
   }
 }

@@ -3,12 +3,13 @@
   height: 100px;
   padding: 0.75em;
   border-radius: 50%;
-  border: solid black 0.25em;
+  border: solid 0.25em;
 }
 
 .burgerMenuIcon * {
   transition: .2s ease-in-out, opacity .1s;
   stroke-linecap: round;
+  padding: 0.25rem;
 }
 
 .burgerMenuIcon:hover {
@@ -30,6 +31,6 @@
 @media screen and (min-width: 480px) {
   .burgerMenuIcon {
     border: none;
-    padding: 0.25rem;
+    padding: 0;
   }
 }

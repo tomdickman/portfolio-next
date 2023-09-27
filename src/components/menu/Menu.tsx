@@ -12,13 +12,15 @@ export const Menu = () => {
 
   return (
     <div className={styles.menu}>
-      <button className={styles.button} onClick={clickHandler} >
-        <Burger className={styles.burger} open={open} />
-      </button>
+      <div className={styles.buttonContainer}>
+        <button className={styles.button} onClick={clickHandler} >
+          <Burger className={`${styles.burger} ${open ? styles.open : ''}`} open={open} />
+        </button>
+      </div>
       <nav className={`${styles.nav} ${open ? styles.open : ''}`}>
-        <ul>
+        <ul className={styles.links}>
           <li>
-            <Link href='/projects'>Projects</Link>
+            <Link className={styles.link} href='/projects'>Projects</Link>
           </li>
         </ul>
       </nav>
