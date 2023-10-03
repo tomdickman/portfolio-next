@@ -1,0 +1,1 @@
+export { IconPendulum } from './IconPendulum'

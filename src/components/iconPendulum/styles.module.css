@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center;
+  --icon-width: 5em;
+  --icon-count: 5;
+  --display-width: calc(var(--icon-width) * 3);
+}
+
+@keyframes scroll {
+  0% {
+    left: 1em;
+  }
+  50% {
+    left: calc(calc(-1 * (var(--icon-width) + (var(--icon-count) * 1px)) * var(--icon-count)) + (var(--icon-width) * 3) - 1em);
+  }
+  100% {
+    left: 1em;
+  }
+}
+
+.pendulum {
+  position: relative;
+  left: 1em;
+  top: 0;
+  height: 1em;
+  width: calc((var(--icon-width) + (var(--icon-count) * 1px)) * var(--icon-count));
+  animation-name: scroll;
+  animation-timing-function: ease-in-out;
+  animation-duration: calc(1s * var(--icon-count));
+  animation-iteration-count: infinite;
+}
+
+.pendulum_container {
+  height: var(--icon-width);
+  width: var(--display-width);
+  overflow: hidden;
+}
+
+.icon {
+  display: inline;
+  height: calc(var(--icon-width) - 1em);
+  width: var(--icon-width);
+}

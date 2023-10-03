@@ -1,3 +1,4 @@
+import { IconPendulum } from '@/components/iconPendulum'
 import styles from './page.module.css'
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
         <p className={styles.text}>
           I build lightning fast cloud based web applications and software solutions.
         </p>
+        <IconPendulum />
       </div>
     </div>
   )
