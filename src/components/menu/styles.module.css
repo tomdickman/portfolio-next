@@ -6,7 +6,7 @@
   z-index: 900;
   color: var(--white);
   background-color: var(--secondary-color);
-  border-radius: 1em 1em 0 0;
+  border-radius: 0.75em 0.75em 0 0;
   padding: 2em;
   transition: all 500ms ease-in-out;
 }
@@ -16,12 +16,13 @@
 }
 
 .link {
+  font-size: 1.5em;
   color: var(--white);
   text-decoration: none;
 }
 
 .link:active, .link:hover {
-  color: var(--primary-color-light);
+  color: var(--primary-color);
   text-decoration: underline;
 }
 
@@ -34,6 +35,10 @@
   color: var(--white);
   height: 6em;
   transition: ease-in-out 100ms;
+}
+
+.burger:hover, .burger:active {
+  color: var(--primary-color);
 }
 
 .button {
@@ -58,10 +63,19 @@
 
 @media screen and (min-width: 480px) {
   .burger {
-    color: var(--black);
+    color: var(--primary-color);
     height: 3rem;
+
     &.open {
       color: var(--white);
+    }
+  }
+
+  .burger:hover, .burger:active {
+    color: var(--secondary-color);
+
+    &.open {
+      color: var(--primary-color);
     }
   }
 
@@ -78,7 +92,7 @@
     left: -14em;
     height: 100%;
     width: 12em;
-    border-radius: 0 1em 1em 0;
+    border-radius: 0 0.75em 0.75em 0;
     padding: 6em 2em;
   }
 
