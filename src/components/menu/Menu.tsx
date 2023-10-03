@@ -35,6 +35,9 @@ export const Menu = () => {
       <nav className={styles.nav}>
         <ul className={styles.links}>
           <li>
+            <Link className={styles.link} href='/'>Home</Link>
+          </li>
+          <li>
             <Link className={styles.link} href='/projects'>Projects</Link>
           </li>
         </ul>

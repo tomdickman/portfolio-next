@@ -16,6 +16,7 @@
 }
 
 .link {
+  line-height: 2;
   font-size: 1.5em;
   color: var(--white);
   text-decoration: none;
