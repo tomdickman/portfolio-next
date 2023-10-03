@@ -1,9 +1,14 @@
 .container {
   display: flex;
   justify-content: center;
+  margin-top: 1em;
   --icon-width: 5em;
-  --icon-count: 5;
+  --icon-count: 9;
   --display-width: calc(var(--icon-width) * 3);
+}
+
+#mask {
+  transform-origin: 0;
 }
 
 @keyframes scroll {
@@ -39,5 +44,6 @@
 .icon {
   display: inline;
   height: calc(var(--icon-width) - 1em);
+  margin: 0 0.25em;
   width: var(--icon-width);
 }

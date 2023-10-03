@@ -6,8 +6,6 @@
 }
 
 .hero {
-  max-width: 900px;
-
   .title {
     font-size: 4em;
   }
