@@ -1,6 +1,7 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
+    "indent": ["error", 2],
     "semi": ["error", "never"],
     "sort-imports": ["error", {
       "ignoreCase": false,
