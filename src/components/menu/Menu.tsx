@@ -40,6 +40,9 @@ export const Menu = () => {
           <li>
             <Link className={styles.link} href='/projects'>Projects</Link>
           </li>
+          <li>
+            <Link className={styles.link} href='/contact'>Contact Me</Link>
+          </li>
         </ul>
       </nav>
     </div>
