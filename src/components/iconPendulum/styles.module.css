@@ -3,12 +3,8 @@
   justify-content: center;
   margin-top: 1em;
   --icon-width: 5em;
-  --icon-count: 9;
+  --icon-count: 10;
   --display-width: calc(var(--icon-width) * 3);
-}
-
-#mask {
-  transform-origin: 0;
 }
 
 @keyframes scroll {

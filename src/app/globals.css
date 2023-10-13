@@ -58,3 +58,16 @@ h6 {
     color-scheme: light;
   }
 }
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  :root {
+    --primary-color: #FEFAE0;
+    --primary-color-light: #FFFFFF;
+    --white: #283618;
+    --secondary-color: #BC6C25;
+    --secondary-color-light: #DDA15E;
+  }
+}

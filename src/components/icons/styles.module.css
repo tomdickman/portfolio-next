@@ -1,0 +1,13 @@
+.next_stop {
+  stop-color: var(--white)
+}
+
+.mask {
+  transform-origin: 0 0;
+}
+
+#next_linear_gradient_1,
+#next_linear_gradient_2,
+#next_mask {
+  transform-origin: 0;
+}
