@@ -6,8 +6,8 @@
 
 @media screen and (min-width: 480px) {
   .main {
-    padding: 5em 14em;
-    min-width: 900px;
+    margin: auto;
+    max-width: 70vw;
     width: 100%
   }
 }

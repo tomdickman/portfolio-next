@@ -53,8 +53,8 @@ h6 {
   font-size: 1.25em;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
 }
