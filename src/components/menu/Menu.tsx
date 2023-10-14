@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from 'react'
 
 import { Burger } from '../burger'
+import { EN } from './lang'
 import Link from 'next/link'
 import styles from './styles.module.css'
 
@@ -27,7 +28,7 @@ export const Menu = () => {
   return (
     <div ref={ref} className={`${styles.menu} ${open ? styles.open : ''}`}>
       <div className={styles.buttonContainer}>
-        <button className={styles.button} onClick={clickHandler} >
+        <button title={EN.OPEN_MENU} className={styles.button} onClick={clickHandler} >
           <Burger className={`${styles.burger} ${open ? styles.open : ''}`} open={open} />
         </button>
       </div>
