@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <article>
       <h1>Projects</h1>
-      <h2 className={styles.project_title}>2022-2023 Target Australia - UI Replatforming</h2>
+      <h2 className={styles.project_title}>Target Australia - UI Replatforming</h2>
       <h3 className={styles.project_position}>Senior Software Engineer</h3>
       <div className={styles.project_description}>
         <ul className={styles.project_description_list}>
@@ -23,7 +23,7 @@ const Projects = () => {
           </Link>
         </div>
       </div>
-      <h2 className={styles.project_title}>2021-2022 Iress - Transactions Hub Micro Frontend</h2>
+      <h2 className={styles.project_title}>Iress - Transactions Hub Micro Frontend</h2>
       <h3 className={styles.project_position}>Software Engineer</h3>
       <div className={styles.project_description}>
         <ul className={styles.project_description_list}>
@@ -40,7 +40,7 @@ const Projects = () => {
           <Image style={{ width: '100%', height: 'auto' }} height={400} width={600} src={'/images/xplan.webp'} alt={EN.XPLAN_THUB_IMAGE_ALT} />
         </Link>
       </div>
-      <h2 className={styles.project_title}>2020-2021 Catalyst IT</h2>
+      <h2 className={styles.project_title}>Catalyst IT</h2>
       <h3 className={styles.project_position}>Web Developer / Software Engineer</h3>
       <div className={styles.project_description}>
         <ul className={styles.project_description_list}>
@@ -50,6 +50,7 @@ const Projects = () => {
           <li>Contributed performance improvements to reduce class loading times by around 80%</li>
         </ul>
       </div>
+      <div className={styles.spacer} />
     </article>
   )
 }
