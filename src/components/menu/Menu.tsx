@@ -35,13 +35,13 @@ export const Menu = () => {
       <nav className={styles.nav}>
         <ul className={styles.links}>
           <li>
-            <Link tabIndex={open ? 0 : -1} className={styles.link} href='/'>Home</Link>
+            <Link onClick={clickHandler} tabIndex={open ? 0 : -1} className={styles.link} href='/'>Home</Link>
           </li>
           <li>
-            <Link tabIndex={open ? 0 : -1} className={styles.link} href='/projects'>Projects</Link>
+            <Link onClick={clickHandler} tabIndex={open ? 0 : -1} className={styles.link} href='/projects'>Projects</Link>
           </li>
           <li>
-            <Link tabIndex={open ? 0 : -1} className={styles.link} href='/contact'>Contact Me</Link>
+            <Link onClick={clickHandler} tabIndex={open ? 0 : -1} className={styles.link} href='/contact'>Contact Me</Link>
           </li>
         </ul>
       </nav>
