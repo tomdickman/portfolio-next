@@ -22,11 +22,11 @@ export const Next: FC<NextProps> = ({
       <defs>
         <linearGradient id={styles.next_linear_gradient_1} x1="109" y1="116.5" x2="144.5" y2="160.5" gradientUnits="userSpaceOnUse">
           <stop className={styles.next_stop} />
-          <stop className={styles.next_stop} offset="1" stop-opacity="0"/>
+          <stop className={styles.next_stop} offset="1" stopOpacity="0"/>
         </linearGradient>
         <linearGradient id={styles.next_linear_gradient_2} x1="121" y1="54" x2="120.799" y2="106.875" gradientUnits="userSpaceOnUse">
           <stop className={styles.next_stop} />
-          <stop className={styles.next_stop} offset="1" stop-opacity="0"/>
+          <stop className={styles.next_stop} offset="1" stopOpacity="0"/>
         </linearGradient>
       </defs>
     </svg>
