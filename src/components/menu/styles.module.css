@@ -1,7 +1,8 @@
 .menu {
+  box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.5);
   position: fixed;
-  bottom: -40vh;
-  height: 40vh;
+  bottom: -40dvh;
+  height: 40dvh;
   width: 100%;
   z-index: 900;
   color: var(--white);
@@ -90,10 +91,11 @@
   }
 
   .menu {
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.5);
     bottom: 0;
-    left: -14em;
+    left: -310px;
     height: 100%;
-    width: 12em;
+    width: 300px;
     border-radius: 0 0.75em 0.75em 0;
     padding: 6em 2em;
   }
