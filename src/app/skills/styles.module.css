@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 0;
 }
 
 .wordcloud_word {
@@ -15,4 +16,14 @@
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 480px) {
+  .wordcloud {
+    padding: 0 2em;
+  }
+
+  .wordcloud_word {
+    font-size: 1.2em;
+  }
 }
