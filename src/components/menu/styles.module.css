@@ -1,7 +1,7 @@
 .menu {
-  box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 -5px 5px rgba(45, 43, 43, 0.5);
   position: fixed;
-  bottom: -40dvh;
+  bottom: -45dvh;
   height: 40dvh;
   width: 100%;
   z-index: 900;
