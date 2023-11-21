@@ -38,6 +38,9 @@ export const Menu = () => {
             <Link onClick={clickHandler} tabIndex={open ? 0 : -1} className={styles.link} href='/'>Home</Link>
           </li>
           <li>
+            <Link onClick={clickHandler} tabIndex={open ? 0 : -1} className={styles.link} href='/skills'>Skills</Link>
+          </li>
+          <li>
             <Link onClick={clickHandler} tabIndex={open ? 0 : -1} className={styles.link} href='/projects'>Projects</Link>
           </li>
           <li>

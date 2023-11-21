@@ -37,6 +37,11 @@ p, li, a, span {
   margin-bottom: 0.25em;
 }
 
+p {
+  line-height: 1.5;
+  margin-bottom: 0.5em;
+}
+
 a:hover, a:active, a:focus {
   color: var(--secondary-color);
 }
