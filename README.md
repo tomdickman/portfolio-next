@@ -1,5 +1,7 @@
 # NextJS Portfolio
 
+⛔️ DEPRECATED: This has been replaced with a [https://github.com/tomdickman/portfolio2026](new version).
+
 This is my personal website [https://tomdickman.com.au](https://tomdickman.com.au), built with NextJS and very little else.
 
 ## Getting Started
